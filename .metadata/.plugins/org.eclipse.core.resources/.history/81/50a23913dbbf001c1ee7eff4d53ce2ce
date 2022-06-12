@@ -1,0 +1,43 @@
+package com.hashing.coding.revision;
+
+import java.util.HashSet;
+import java.util.Scanner;
+
+public class HashingPair1 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner sc=new Scanner(System.in);
+		System.out.println("EEnter no of elements");
+		int n=sc.nextInt();
+		
+		int arr[]=new int[n];
+		int sum=14;
+		for(int i=0;i<n;i++)
+		{
+			arr[i]=sc.nextInt()	;
+					
+		}
+		for (int i = 0; i < n; i++) {
+			System.out.print(arr[i] + " ");
+		}
+	HashSet<Integer> hs= new HashSet<Integer>();	
+	for(int i=0;i<arr.length;i++)
+	{
+		hs.add(arr[i]);
+	}
+	
+	for(int i=0;i<arr.length;i++)
+	{
+		if(sum-arr[i]!=arr[i])
+			continue;
+		else
+		if(hs.contains(sum-arr[i]))
+		{
+			System.out.println(1);
+			break;
+		}
+	}
+	}
+
+}

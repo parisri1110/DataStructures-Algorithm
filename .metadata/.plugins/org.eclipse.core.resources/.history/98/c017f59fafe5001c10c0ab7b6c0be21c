@@ -1,0 +1,36 @@
+package com.string.coding.revision.one;
+
+public class Anagram {
+
+	static final int CHAR=256;
+	public static void main(String[] args) {
+
+		String s1="listen";
+		String s2="codevi";
+		
+		int count[]=new int[CHAR];
+		
+		if(s1.length()!=s2.length())
+		{
+			System.out.println("not a pallindrome");
+		}
+
+		else {
+		for(int i=0;i<s1.length();i++)
+		{
+			count[s1.charAt(i)]++;
+			count[s2.charAt(i)]--;
+		}
+		}
+		for(int i=0;i<s1.length();i++)
+		{
+			if(count[i]!=0)
+			{
+				System.out.println("pallindrome");
+			}
+		}
+	
+		System.out.println("anagram");
+	}
+
+}

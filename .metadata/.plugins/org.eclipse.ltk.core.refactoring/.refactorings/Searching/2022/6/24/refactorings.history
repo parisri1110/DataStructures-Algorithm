@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;MajorityElement.java&apos; to &apos;LeetCodeChallenges/src/com.leetcode.challenges&apos;&#x0D;&#x0A;- Original project: &apos;Searching&apos;&#x0D;&#x0A;- Destination element: &apos;LeetCodeChallenges/src/com.leetcode.challenges&apos;&#x0D;&#x0A;- Original element: &apos;com.searching.binarysearch.MajorityElement.java&apos;" description="Copy compilation unit" destination="=LeetCodeChallenges/src&lt;com.leetcode.challenges" element1="/src&lt;com.searching.binarysearch{MajorityElement.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1654927048198" units="1" version="1.0"/>
+</session>

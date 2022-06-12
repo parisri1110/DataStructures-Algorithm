@@ -1,0 +1,10 @@
+package com.string.coding;
+
+public class Efficient1LeftmostNonRepeatingChar {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

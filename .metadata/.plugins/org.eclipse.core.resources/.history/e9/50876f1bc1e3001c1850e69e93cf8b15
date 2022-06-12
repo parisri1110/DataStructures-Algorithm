@@ -1,0 +1,10 @@
+package com.sorting;
+
+public class HoarePartition {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

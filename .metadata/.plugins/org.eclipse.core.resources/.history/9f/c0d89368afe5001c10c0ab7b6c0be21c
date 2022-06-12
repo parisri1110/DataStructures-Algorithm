@@ -1,0 +1,21 @@
+package com.string.coding.revision.one;
+
+public class Anagram {
+
+	static final int CHAR=256;
+	public static void main(String[] args) {
+
+		String s1="listen";
+		String s2="silent";
+		
+		int count[]=new int[CHAR];
+		
+		if(s1.length()!=s2.length())
+		{
+			System.out.println("not a pallindrome");
+		}
+
+		
+	}
+
+}

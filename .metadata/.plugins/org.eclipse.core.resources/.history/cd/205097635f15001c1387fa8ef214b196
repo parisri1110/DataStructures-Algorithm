@@ -1,0 +1,38 @@
+package com.string.coding;
+
+public class CountFrequency {
+
+	public static void main(String[] args) {
+
+		String str="aaaaaadeeeeeeeffnnnnnnnnnnnn";
+		int count[]=new int[256];
+		int res=Integer.MAX_VALUE;
+		
+		char String[]=str.toCharArray();
+		
+		for(int i=0;i<str.length();i++)
+		{
+			count[str.charAt(i)]++;
+		}
+		
+		int max=1;
+		for(int i=0;i<256;i++)
+		{
+			if(count[i]>=1)
+			{
+				System.out.println("team " + (char) (i)+":" +" " + count[i]);
+				// res=Math.min(res, i);
+			 
+				// (res==Integer.MAX_VALUE)?-1:res;
+				//break;
+			}
+			/*
+			 * if(count[i]>max) { max = count[i]; maxCountElement = count[str.charAt(i)]; }
+			 */
+
+		}
+		
+		
+	}
+
+}

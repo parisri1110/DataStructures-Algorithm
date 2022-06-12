@@ -1,0 +1,15 @@
+package com.string.coding;
+
+public class EfficientAnagram1 {
+
+	static final int CHAR=256;
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		String s1="listen";
+		String s2="silent";
+		
+		int count[]=new int[CHAR];
+	}
+
+}

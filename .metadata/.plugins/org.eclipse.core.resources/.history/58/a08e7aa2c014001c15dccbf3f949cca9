@@ -1,0 +1,39 @@
+package com.string.coding;
+
+public class NaivePatternSeraching {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+String txt = "ABCABCD";
+String pat= "ABCD";
+		
+		int res=patternSearch(txt,pat);
+		
+		System.out.println(res);
+	}
+
+	private static int patternSearch(String txt, String pat) {
+		// TODO Auto-generated method stub
+		int n=txt.length();
+		int m=pat.length();
+		
+		for(int i=0;i<n-m;i++)
+		{
+			int j;
+			for(j=0;j<m;j++)
+			{
+				if(txt.charAt(i)!=pat.charAt(i+j))
+					break;
+			}
+			if(j==m)
+			{
+				return i;
+			}
+		}
+		return -1;
+	}
+
+	
+
+}

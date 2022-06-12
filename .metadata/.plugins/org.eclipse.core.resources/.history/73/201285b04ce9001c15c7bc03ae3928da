@@ -1,0 +1,23 @@
+package com.leetcode.challenges;
+
+public class MajorityElementVootingAlgo {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		String s1="pari";
+		String s2="pari";
+		System.out.println(s1.equals(s2));
+		System.out.println(s1==s2);
+		System.out.println(s1.concat(s2));
+		
+		String s3=new String("parioths");
+		s3.concat("sri");
+		System.out.println(s3);
+		StringBuffer s4=new StringBuffer("parioths");
+		s4.append("s");
+		System.out.println(s4);
+	
+	}
+
+}

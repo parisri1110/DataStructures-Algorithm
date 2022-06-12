@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy package &apos;com.arrays.coding.questions&apos; to &apos;450Questions/src&apos;&#x0D;&#x0A;- Original project: &apos;Arrays&apos;&#x0D;&#x0A;- Destination element: &apos;450Questions/src&apos;&#x0D;&#x0A;- Original element: &apos;Arrays/src/com.arrays.coding.questions&apos;" description="Copy package" destination="=450Questions/src" element1="/src&lt;com.arrays.coding.questions" flags="589830" fragments="1" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyPackages" stamp="1654413491718" version="1.0"/>
+</session>

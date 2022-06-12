@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;com.leetcode.challenges.MajorityElement&apos; to &apos;MajorityElement1&apos;&#x0D;&#x0A;- Original project: &apos;LeetCodeChallenges&apos;&#x0D;&#x0A;- Original element: &apos;com.leetcode.challenges.MajorityElement&apos;&#x0D;&#x0A;- Renamed element: &apos;com.leetcode.challenges.MajorityElement1&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;MajorityElement&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;com.leetcode.challenges{MajorityElement.java[MajorityElement" matchStrategy="1" name="MajorityElement1" qualified="false" references="true" similarDeclarations="false" stamp="1654927045820" textual="false" version="1.0"/>
+</session>
