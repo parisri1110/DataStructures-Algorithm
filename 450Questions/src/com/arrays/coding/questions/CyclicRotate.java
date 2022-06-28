@@ -36,6 +36,7 @@ public class CyclicRotate {
 
 	private static void cyclerotate(int[] arr) {
 
+		int n=arr.length-1;
 
 		int temp=arr[arr.length-1];
 		int i;

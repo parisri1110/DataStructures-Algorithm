@@ -36,6 +36,7 @@ public class DuplicateElement {
 			if(e.getValue()>=2)
 			{
 				count=e.getKey();
+				System.out.println(count+" ");
 			}
 		}
 		

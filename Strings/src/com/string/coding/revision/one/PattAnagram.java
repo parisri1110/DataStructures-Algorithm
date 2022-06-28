@@ -5,7 +5,7 @@ public class PattAnagram {
 	static final int CHAR=256;
 	public static void main(String[] args) {
 		String txt = "geeksforgeeks"; 
-        String pat = "weks";  
+        String pat = "frog";  
         if (isPresent(txt, pat)) 
             System.out.println("Anagram search found"); 
         else

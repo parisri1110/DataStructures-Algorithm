@@ -7,9 +7,16 @@ public class Excep {
 
 	public static void main(String[] args) throws FileNotFoundException {
 		// TODO Auto-generated method stub
-		PrintWriter pw=new PrintWriter("abc.txt");
-		pw.print(false);
-		System.out.println(10/0);
+	
+		
+		
+		String s1="paritosh";
+		String s2="paritosh";
+		s1="pari";
+		System.out.println(s1);
+		System.out.println(s2.concat(s1));
+		System.out.println(s1.equals(s2));
+		System.out.println(s1.equals(s1));
 
 	}
 

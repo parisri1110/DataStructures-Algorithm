@@ -7,7 +7,7 @@ public class Efficient1LeftmostNonRepeatingChar {
 	static final int CHAR=256;
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-String str = "MASERATIMQUATROPRTEGTSHGSGEEQNZHPAIYTFHNJAKMBRQ";
+String str = "qtwibcnptcchedpwjhusvhkuuynhtrmppehsgjsoxlfbxfndmjsbhxffxabuafkclehlepifxthlbdqcodscdblqxvbeimjbrjvybqndmpofltamyvkkghlfnnikwfsypeyarwqhmxlwdvqqolmywacaeewdgihqthsrdwnvdokvpqdmrnio";
 		
 		int res=leftrep(str);
 		
