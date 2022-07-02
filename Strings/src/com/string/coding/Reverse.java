@@ -2,6 +2,7 @@ package com.string.coding;
 
 import java.util.Iterator;
 import java.util.Scanner;
+import java.util.regex.Pattern;
 
 public class Reverse {
 
@@ -11,7 +12,25 @@ public class Reverse {
 		boolean flag;
 		
 		System.out.println("Enter a new String");
-		String str=sc.nextLine();
+		Pattern p=Pattern.compile(".");
+		String str="hello";
+		String str1="i.like.this.program.very.much";
+		String result="";
+		String temp1[]=p.split(str1);
+		
+		for(int i=0;i<temp1.length;i++)
+		{
+			if(i==temp1.length-1)
+			{
+				result=temp1[i]+result;
+			}
+			else
+			{
+				result=" " + temp1[i] + result;
+			}
+		}
+		
+		System.out.println(result);
 		
 		int low=0;
 		int high=str.length()-1;
@@ -26,7 +45,7 @@ public class Reverse {
 			high--;
 		}
 		
-		  for (char c : temp) { System.out.println(c); }
+		  for (char c : temp) { System.out.print(c); }
 	
 	}
 
